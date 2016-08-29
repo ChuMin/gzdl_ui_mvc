@@ -15,6 +15,9 @@ namespace gzdl_ui_mvc.Controllers
         {
             return View();
         }
-
+        public ActionResult grid()
+        {
+            return View();
+        }
     }
 }

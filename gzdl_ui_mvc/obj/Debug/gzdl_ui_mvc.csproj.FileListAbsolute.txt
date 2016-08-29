@@ -38,3 +38,4 @@ E:\MVC\gzdl_ui_mvc\gzdl_ui_mvc\bin\zh-Hans\System.Web.WebPages.Deployment.resour
 E:\MVC\gzdl_ui_mvc\gzdl_ui_mvc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\MVC\gzdl_ui_mvc\gzdl_ui_mvc\obj\Debug\gzdl_ui_mvc.dll
 E:\MVC\gzdl_ui_mvc\gzdl_ui_mvc\obj\Debug\gzdl_ui_mvc.pdb
+E:\MVC\gzdl_ui_mvc\gzdl_ui_mvc\obj\Debug\gzdl_ui_mvc.csprojResolveAssemblyReference.cache
