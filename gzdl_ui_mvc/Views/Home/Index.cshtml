@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "../Shared/layout.cshtml";
+    ViewBag.Title = "Index";
+    @section header{
+
+    }
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h2>电力系统员工</h2>
+            </div>
+            <form class="form-horizontal">
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="xm">姓名</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="xm" type="text" placeholder="姓名" />
+                    </div>
+                    <label class="col-sm-2 control-label" for="gh">工号</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="gh" type="text" placeholder="工号" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="sfz">身份证号</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="sfz" type="text" placeholder="身份证号" />
+                    </div>
+                    <label class="col-sm-2 control-label" for="hj">户籍</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="hj" type="password" placeholder="户籍" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="csny">出生年月</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="csny" type="text" placeholder="出生年月" />
+                    </div>
+                    <label class="col-sm-2 control-label" for="gw">岗位授权</label>
+                    <div class="col-sm-4">
+                        <select id="gw" class="form-control">
+                            <option value="1">岗位1</option>
+                            <option value="2">岗位2</option>
+                            <option value="3">岗位3</option>
+                            <option value="4">岗位4</option>
+                            <option value="5">岗位5</option>
+                            <option value="6">岗位6</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="ds_username">劳动合同起讫时间</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" id="htsj" type="text" placeholder="年月日" />
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="disabledSelect" class="col-sm-2 control-label">家庭住址</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="dz" type="text" placeholder="家庭地址" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- /container -->
