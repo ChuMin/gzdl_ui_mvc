@@ -458,6 +458,17 @@
 <script src="~/Content/plugins/datatables/dataTables.bootstrap.min.js"></script>
 <script>
     $(function () {
-        $('#example2').DataTable();
+        $('#example2').DataTable({
+            "paging": true,
+            "lengthChange": false,
+            "searching": false,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false,
+            "language": {
+                "url": "@Url.Content("~/Content/plugins/datatables/CN.json")"
+
+            }
+        });
     });
 </script>
